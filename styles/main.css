@@ -1,0 +1,46 @@
+.topbar {
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  
+  .logo{
+    font-size: 2em;
+    height: fit-content;
+    margin: 1em 1em 1em 1em ;
+    background-color: brown;
+    border-radius: 3em;
+  }
+  h1{
+      margin: 1em 1em 1em 1em ;
+  }
+  .btn{
+   width: 3em;
+    height: 3em;
+    margin: 2em 2em 2em 2em;
+    background-color: gray;
+  }
+  .line {
+    width: 2em;
+    height: 0.2em;
+    background-color: black;
+    margin: 6px 0;
+    border-color: gray;
+  }
+  
+  .content{
+    position:absolute; 
+    top:6em;
+    bottom:0px; 
+    left:0px; 
+    right:0px;
+    overflow:auto;
+  }
